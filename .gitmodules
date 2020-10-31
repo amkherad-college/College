@@ -1,3 +1,3 @@
 [submodule "docs/PNU"]
 	path = docs/PNU
-	url = git@github.com:amkherad-college/PNU.git
+	url = https://github.com/amkherad-college/PNU.git
