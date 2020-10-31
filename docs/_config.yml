@@ -4,9 +4,31 @@ description: This is a directory for my college projects.
 
 # ===============================
 
-remote_theme: amkherad-college/CollegeProjectTheme
+remote_theme: amkherad-college/texture
+#theme: texture
+
+show_excerpts: true
 
 author: Ali Mousavi Kherad
+
+texture:
+  title: Ali Mousavi Kherad
+  tagline: My college projects directory.
+  date_format: "%b %-d, %Y"
+  style: blue #[yellow|red|black|blue|green|purple]
+  showPicker: false
+  showNav: true
+  
+  navigation:
+    - title: My Blog
+      url: "https://amkherad.ir"
+    - title: Resume
+      url: "https://amkherad.i/resume"
+
+  social_links:
+    twitter: amkherad
+    github:  amkherad
+    linkedIn: in/amkherad # format: locale/username
 
 addons:
   - github
