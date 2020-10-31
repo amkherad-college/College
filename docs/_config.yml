@@ -1,0 +1,46 @@
+title: Ali Mousavi Kherad's College Projects
+lang: [en, fa]
+description: This is a directory for my college projects.
+
+# ===============================
+
+remote_theme: amkherad-college/CollegeProjectTheme
+
+author: Ali Mousavi Kherad
+
+addons:
+  - github
+  - i18n
+  - plugins
+  - analytics
+
+sass:
+  style: compressed
+
+copyright:
+  revision: true
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - jekyll-rtd-theme.gemspec
+
+whitelist:
+  - jekyll-redirect-from
