@@ -1,5 +1,5 @@
 title: Ali Mousavi Kherad's College Projects
-lang: [en, fa]
+#lang: [en, fa]
 description: This is a directory for my college projects.
 
 # ===============================
@@ -20,10 +20,12 @@ texture:
   showNav: true
   
   navigation:
+    - title: Home
+      url: "https://college.amkherad.ir"
     - title: My Blog
       url: "https://amkherad.ir"
     - title: Resume
-      url: "https://amkherad.i/resume"
+      url: "https://amkherad.ir/resume/"
 
   social_links:
     twitter: amkherad
